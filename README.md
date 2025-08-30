@@ -1,4 +1,4 @@
-\# File Encryptor (C)
+# File Encryptor (C)
 
 
 
@@ -8,31 +8,32 @@ It uses a basic XOR cipher to scramble and unscramble text files.
 
 
 
-\## Features
+## Features
 
-\- Encrypt text files with a key
+- Encrypt text files with a key
 
-\- Decrypt files back to original text
+- Decrypt files back to original text
 
-\- Lightweight and fast
+- Lightweight and fast
 
-\- Minimal dependencies
+- Minimal dependencies
 
 
 
-\## Installation
+## Installation
 
 You need a C compiler such as `gcc`.
 
 
 
-\## Usage
+## Usage
 
 ```bash
 
 gcc main.c -o encryptor
 
 ./encryptor input.txt output.txt secretkey
+
 
 
 
